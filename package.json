@@ -1,5 +1,15 @@
 {
-  "version": 2,
-  "routes": [
-      {"src": "/(.*)","dest": "https://ipfs.infura.io:5001/$1"}
-  ]
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.0"
+  }
+}
